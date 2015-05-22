@@ -1,0 +1,4 @@
+<div class="fp_lp_box">
+            <span><a href="#">Detail</a></span>
+            <img src="http://newindexbd.com/xenon-upload/xenon_cms_media_fe0aesr77181wbetzyrwqq75aipv3swd7m3qupmy.jpg" alt="Image 01"  width="290px" height="140px"/>
+        </div>

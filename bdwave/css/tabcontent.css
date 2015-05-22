@@ -1,0 +1,97 @@
+ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;
+	width: 479px;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+ul.tabsdiv
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;
+	width: 265px;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+        
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:3px; /*distance between tabs*/
+}
+        
+ul.tabs li a
+{
+    font: normal 15px Solaimanlipi;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    padding: 3px 8px;
+    border: 1px solid #CCC;
+    border-bottom-color:#B7B7B7;
+    color: black;
+    background: #F0F0F0 url(tabbg.gif) 0 0 repeat-x;
+    border-radius: 2px 2px 0 0;
+    outline:none;
+	background:none;
+}
+        
+ul.tabs li a:visited
+{
+    color: black;
+}
+        
+ul.tabs li a:hover
+{
+	/*selected tab style */
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: white;
+    border: 1px solid #B7B7B7;
+    border-bottom-color: white;
+	color:black;
+}
+        
+ul.tabs li.selected a
+{
+    border: 1px solid #B7B7B7;
+    background:#F0F0F0 url(tabbg.gif) 0 -36px repeat-x;
+	color:white;
+}
+        
+        
+ul.tabs li.selected a:hover
+{
+    /*selected tab style */
+    text-decoration: none;
+}
+        
+div.tabcontent
+{
+    display: block; 
+}
+
+div.tabcontents
+{
+    border: 1px solid #B7B7B7; padding: 5px 3px 50px 3px;
+    background-color:#FFF;
+	height: 220px;
+    border-radius: 0 2px 2px 2px;
+	overflow-x:hidden;
+       overflow-y:scroll;
+     font-size: 16px;
+}
+div.tabcontentsdiv
+{
+    border: 1px solid #B7B7B7; 
+    background-color:#FFF;
+        width: 478px;
+	height: 305px;
+    border-radius: 0 2px 2px 2px;
+}
+
